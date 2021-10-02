@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+
+  .card {
+    height: 300px;
+    flex-basis: 30%;
+    border: 1px solid #ccc;
+    box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.41);
+    .card-header {
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+    .card-body {
+      padding: 2rem;
+    }
+  }
+}

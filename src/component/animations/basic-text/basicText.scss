@@ -1,0 +1,42 @@
+.basic-text-animation {
+  color: green;
+  text-align: center;
+  h2:hover {
+    animation: moveInLeft 1s ease-in-out;
+  }
+  h3:hover {
+    animation: moveInRight 1s ease-in-out;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  70% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  70% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

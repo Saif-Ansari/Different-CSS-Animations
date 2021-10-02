@@ -1,0 +1,64 @@
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./src/component/animations/basic-text/basicText.scss ***!
+  \*******************************************************************************************************************************************************************************************************************/
+.basic-text-animation {
+  color: green;
+  text-align: center;
+}
+.basic-text-animation h2:hover {
+  animation: moveInLeft 1s ease-in-out;
+}
+.basic-text-animation h3:hover {
+  animation: moveInRight 1s ease-in-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  70% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  70% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./src/app.scss ***!
+  \*****************************************************************************************************************************************************************************/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.container .card {
+  height: 300px;
+  flex-basis: 30%;
+  border: 1px solid #ccc;
+  box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 3px 4px 10px 1px rgba(0, 0, 0, 0.41);
+}
+.container .card .card-header {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.container .card .card-body {
+  padding: 2rem;
+}
