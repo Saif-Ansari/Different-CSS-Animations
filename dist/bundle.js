@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _animations_basic_text_BasicText__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./animations/basic-text/BasicText */ \"./src/component/animations/basic-text/BasicText.js\");\n\n\n\nvar Animations = function Animations() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_animations_basic_text_BasicText__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Animations);\n\n//# sourceURL=webpack://react-webpack-boilerplate/./src/component/Animations.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _animations_basic_text_BasicText__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./animations/basic-text/BasicText */ \"./src/component/animations/basic-text/BasicText.js\");\n/* harmony import */ var _animations_card_flip_CardFLip__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./animations/card-flip/CardFLip */ \"./src/component/animations/card-flip/CardFLip.js\");\n\n\n\n\nvar Animations = function Animations() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_animations_basic_text_BasicText__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_animations_card_flip_CardFLip__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Animations);\n\n//# sourceURL=webpack://react-webpack-boilerplate/./src/component/Animations.js?");
 
 /***/ }),
 
@@ -47,6 +47,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Card */ \"./src/component/Card.js\");\n/* harmony import */ var _basicText_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./basicText.scss */ \"./src/component/animations/basic-text/basicText.scss\");\n\n\n\n\nvar BasicText = function BasicText() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Card__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    title: \"Basic Text Animation\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"basic-text-animation\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", null, \"Basic Text to Animate Left\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", null, \"Basic Text to Animate Right\")));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (BasicText);\n\n//# sourceURL=webpack://react-webpack-boilerplate/./src/component/animations/basic-text/BasicText.js?");
+
+/***/ }),
+
+/***/ "./src/component/animations/card-flip/CardFLip.js":
+/*!********************************************************!*\
+  !*** ./src/component/animations/card-flip/CardFLip.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Card */ \"./src/component/Card.js\");\n/* harmony import */ var _card_flip_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./card-flip.scss */ \"./src/component/animations/card-flip/card-flip.scss\");\n\n\n\n\nvar CardFLip = function CardFLip() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Card__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    title: \"Card Flip Animation\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"cardFlip\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"cardFlip__side cardFlip__side--front\"\n  }, \"Front Side\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"cardFlip__side cardFlip__side--back\"\n  }, \"Back Side\")));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CardFLip);\n\n//# sourceURL=webpack://react-webpack-boilerplate/./src/component/animations/card-flip/CardFLip.js?");
 
 /***/ }),
 
@@ -77,6 +87,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://react-webpack-boilerplate/./src/component/animations/basic-text/basicText.scss?");
+
+/***/ }),
+
+/***/ "./src/component/animations/card-flip/card-flip.scss":
+/*!***********************************************************!*\
+  !*** ./src/component/animations/card-flip/card-flip.scss ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://react-webpack-boilerplate/./src/component/animations/card-flip/card-flip.scss?");
 
 /***/ }),
 
